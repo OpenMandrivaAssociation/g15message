@@ -1,6 +1,6 @@
 Name:                   g15message
 Version:                1.0.0
-Release:                %mkrel 1
+Release:                %mkrel 3
 Summary:                Simple message/alert tool for g15daemon and the Logitech G15
 License:                GPL
 Group:                  System/Configuration/Hardware
