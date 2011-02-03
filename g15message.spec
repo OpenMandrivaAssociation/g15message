@@ -1,15 +1,14 @@
 Name:                   g15message
 Version:                1.0.0
-Release:                %mkrel 5
+Release:                %mkrel 6
 Summary:                Simple message/alert tool for g15daemon and the Logitech G15
 License:                GPL
 Group:                  System/Configuration/Hardware
 URL:                    http://g15daemon.sourceforge.net/
 Source0:                http://downloads.sourceforge.net/g15daemon/g15message-%{version}.tar.bz2
-BuildRequires:          g15-devel
+BuildRequires:		g15-devel
 BuildRequires:          g15daemon_client-devel
 BuildRequires:          g15render-devel
-BuildRequires:          X11-devel
 BuildRoot:              %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
