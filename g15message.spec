@@ -6,6 +6,7 @@ License:                GPL
 Group:                  System/Configuration/Hardware
 URL:                    https://g15daemon.sourceforge.net/
 Source0:                http://downloads.sourceforge.net/g15daemon/g15message-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:		g15-devel
 BuildRequires:          g15daemon_client-devel
 BuildRequires:          g15render-devel
